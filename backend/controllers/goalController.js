@@ -1,5 +1,4 @@
-const goals = await Goal.find({ user: req.user.id })
-
-
+text: req.body.text,
+user: req.user.id,
 
 
